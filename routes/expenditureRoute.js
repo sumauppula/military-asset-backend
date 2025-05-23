@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const expenditureController = require('../controllers/expenditureController');
+const expenditureController = require('../controller/expenditureController');
 
 // POST /api/expenditures
 router.post('/', expenditureController.createExpenditure);
